@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="./assets/style/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <section class="admin">
+        <header class="header" id="header">
+            <div class="container header_container d-flex">
+                <a href="./index.html" class="header__title">STATUS 200</a>
+                <div class="header__logo">
+                    <a href="./user.html" class="header__link">USER</a>
+                    <a href="./references.html" class="header__link">REFERENCES</a>
+                    <a href="./admin.html" class="header__link">ADMMIN</a>
+                </div>
+                <div class="authorization_header">
+                    <a href="#" class="authorization_link" id="auth_link">SIGN IN</a>
+                    <a href="#" class="authorization_link" id="auth__link">SIGN UP</a>
+                </div>
+            </div>
+        </header>
+        <div class="container  d-flex" >
+            <div class="sign_u" id="sign_u">
+                <div class="logo d-flex">
+                    <a href="#" class="auth_link" id="auth__link"> SIGN UP</a>
+                </div>
+                <div class="sign_up d-flex">
+                    <div class="data" >
+                        <label> Firstname
+                          <input data-rule="text" class="firstname" id="firstName">
+                        </label>
+                        <label> Surname
+                          <input data-rule="text" class="secondname" id="secondName">
+                        </label>
+                        <label> Email
+                          <input  type="email" class="email" id="email">
+                        </label>
+                        <label> Password
+                          <input  type="password" class="password" id="password">
+                        </label>
+                        <button class="sign__up" id="signUp">Sign up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="sign_i" id="sign_i">
+                <div class="logo sign_in_logo d-flex">
+                    <a href="#" class="auth_link" id="auth_link">SIGN IN</a>
+                </div>
+                <div class="sign_in d-flex">
+                    <div class="sign__in">
+                        <label> Email
+                            <input type="email" class="username" id="userName">
+                        </label>
+                        <label>Password 
+                            <input type="password" class="password password_sign-in" id="password_sign-in">
+                        </label>
+                        <button class="sign_in_btn" id="signInBtn">Sign in</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <h1 class="footer__title d-flex">Контакты</h1>
+            <div class="footer_info">
+                <div class="programmers d-col d-flex">
+                    <h2 class="programmer_title">PROGRAMMERS</h2>
+                    <h3 class="programmer_num">50000</h3>
+                    <p class="programmer_desc"><i>one family - one programmer   </i></p>
+                </div>
+                <div class="social d-flex ">
+                    <h3 class="social__title">МЫ В СОЦИАЛЬНЫХ СЕТЯХ</h3>
+                    <p>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a> <a href="#"><i class="fa-brands fa-instagram"></i></a> <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </p>
+                </div>
+                <div class="tel d-flex d-col">
+                    <h3 class="tel_title">Телефон для связи</h3>
+                    <a href="tel:+996550566585">+996550566585</a>
+                    <a href="tel:+996705864569">+996705864569</a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    
+
+    <script src="./assets/script/script.js"></script>
+</body>
+</html>

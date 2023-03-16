@@ -1,0 +1,55 @@
+@media(max-width:376px) {
+    .container {
+        max-width: 340px;
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+    .header__logo {
+        display: none;
+    }
+    .authorization_header {
+        position: absolute;
+        bottom: -535px;
+    }
+    .header__title {
+        font-size: 25px;
+    }
+    .sign_i {
+        position: relative;
+        display: block;
+        height: 475px;
+    }
+    .sign_u {
+        height: 475px;
+    }
+    .auth_link {
+        font-size: 20px;
+    }
+    label {
+        font-size: 18px;
+    }
+    .data {
+        margin-top: 20px;
+        margin-left: 9px;
+    }
+    input {
+        width: 250px;
+        margin: 5px 0 12px -8px
+    }
+    .sign__up {
+        margin-left: 15px;
+        width: 194px;
+    }
+    .sign_in {
+        margin-left: 18px;
+    }
+    .sign_in_btn {
+        width: 194px;
+        margin-left: 15px;
+
+    }
+    .restore::after {
+        width: 195px;
+    }
+   
+}
